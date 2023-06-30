@@ -3,7 +3,7 @@ package MidExamFundamentals;
 import java.util.Scanner;
 
 public class P01GuineaPig {
-
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         double food = Double.parseDouble(sc.nextLine());
