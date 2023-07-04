@@ -10,7 +10,6 @@ public class P01GuineaPig {
         double hay = Double.parseDouble(sc.nextLine());
         double cover = Double.parseDouble(sc.nextLine());
         double pigWeight = Double.parseDouble(sc.nextLine());
-        boolean isEmpty = false;
 
         for (int i = 1; i <= 30; i++) {
             if (food - 0.3 <= 0) {
